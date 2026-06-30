@@ -1,0 +1,18 @@
+name: RandomTeleport
+version: 2.0.0
+main: RandomTeleport\RandomTeleport
+api: 5.0.0
+website: https://nikitaberg.ru
+author: nikitaberg
+description: Телепортация в случайное место с богатой настройкой
+
+permissions:
+  rtp.use:
+    description: Разрешает использовать /rtp
+    default: true
+  rtp.bypass.cooldown:
+    description: Обходит кулдаун команды /rtp
+    default: op
+  rtp.reload:
+    description: Разрешает использовать /rtp reload
+    default: op

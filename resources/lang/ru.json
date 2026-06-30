@@ -1,0 +1,16 @@
+{
+  "teleported": "§aВы телепортировались в случайное место! §7({x}, {y}, {z})",
+  "on_cooldown": "§cИспользуйте /rtp снова через §e{seconds} сек.",
+  "no_safe_spot": "§cНе удалось найти безопасное место. Попробуйте ещё раз.",
+  "only_in_game": "§cЭта команда доступна только в игре.",
+  "world_not_allowed": "§cТелепортация из этого мира запрещена.",
+  "world_not_loaded": "§cМир §e{world}§c не загружен.",
+  "config_reloaded": "§aКонфиг перезагружен.",
+  "invalid_effect": "§cЭффект §e{effect}§c не существует. Эффект отключён.",
+  "invalid_sound": "§cЗвук §e{sound}§c не существует. Звук отключён.",
+  "no_permission": "§cУ вас нет прав на использование этой команды.",
+  "title_title": "§9RTP",
+  "title_subtitle": "§aТелепортирован!",
+  "actionbar_teleported": "§aТелепортирован! §7({x}, {y}, {z})",
+  "actionbar_cooldown": "§c/rtp — подождите §e{seconds} сек."
+}

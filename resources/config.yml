@@ -1,0 +1,50 @@
+lang: en
+
+coordinates:
+  min: -1000
+  max: 1000
+
+# key is the world where /rtp is used, value is the world to teleport into
+worlds:
+  world: world
+  normal: world
+  world_nether: world
+  world_the_end: world
+
+cooldown:
+  enabled: false
+  seconds: 60
+
+# check that 2 air blocks exist above the landing spot
+check_surface: false
+
+effect:
+  enabled: false
+  # available: ABSORPTION, BLINDNESS, CONDUIT_POWER, DARKNESS, FATAL_POISON, FIRE_RESISTANCE,
+  # HASTE, HEALTH_BOOST, HUNGER, INSTANT_DAMAGE, INSTANT_HEALTH, INVISIBILITY, JUMP_BOOST,
+  # LEVITATION, MINING_FATIGUE, NAUSEA, NIGHT_VISION, POISON, REGENERATION, RESISTANCE,
+  # SATURATION, SLOWNESS, SPEED, STRENGTH, WATER_BREATHING, WEAKNESS, WITHER
+  name: BLINDNESS
+  # duration in ticks (20 = 1 second)
+  duration: 60
+  amplifier: 0
+
+sound:
+  enabled: false
+  # available: EndermanTeleportSound, BellRingSound, BowShootSound, BurpSound,
+  # ChorusFlowerGrowSound, ExplodeSound, FireworkExplosionSound, FireworkLargeExplosionSound,
+  # FireworkLaunchSound, FizzSound, FlintSteelSound, GhastShootSound, GhastSound, IgniteSound,
+  # LaunchSound, PopSound, PotionSplashSound, ThrowSound, TotemUseSound,
+  # WaterSplashSound, XpCollectSound, XpLevelUpSound
+  name: EndermanTeleportSound
+
+messages:
+  chat:
+    enabled: false
+  title:
+    enabled: false
+    fade_in: 10
+    stay: 40
+    fade_out: 10
+  actionbar:
+    enabled: false

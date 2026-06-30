@@ -1,0 +1,16 @@
+{
+  "teleported": "§aTeleported to a random location! §7({x}, {y}, {z})",
+  "on_cooldown": "§cYou can use /rtp again in §e{seconds}s.",
+  "no_safe_spot": "§cCouldn't find a safe spot. Try again.",
+  "only_in_game": "§cThis command can only be used in-game.",
+  "world_not_allowed": "§cTeleportation from this world is not allowed.",
+  "world_not_loaded": "§cWorld §e{world}§c is not loaded.",
+  "config_reloaded": "§aConfig reloaded.",
+  "invalid_effect": "§cEffect §e{effect}§c does not exist. Effect disabled.",
+  "invalid_sound": "§cSound §e{sound}§c does not exist. Sound disabled.",
+  "no_permission": "§cYou don't have permission to use this command.",
+  "title_title": "§9RTP",
+  "title_subtitle": "§aTeleported!",
+  "actionbar_teleported": "§aTeleported! §7({x}, {y}, {z})",
+  "actionbar_cooldown": "§c/rtp — wait §e{seconds}s"
+}
